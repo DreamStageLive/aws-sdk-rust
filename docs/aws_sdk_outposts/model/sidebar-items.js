@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["ResourceType",""]],"mod":[["instance_type_item","See `InstanceTypeItem`"],["outpost","See `Outpost`"],["site","See `Site`"]],"struct":[["InstanceTypeItem",""],["Outpost",""],["Site",""]]});

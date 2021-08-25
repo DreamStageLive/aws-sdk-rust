@@ -1,0 +1,1 @@
+initSidebarItems({"mod":[["builder",""]],"struct":[["LazyCachingCredentialsProvider","`LazyCachingCredentialsProvider` implements [`AsyncProvideCredentials`] by caching credentials that it loads by calling a user-provided [`AsyncProvideCredentials`] implementation."]]});

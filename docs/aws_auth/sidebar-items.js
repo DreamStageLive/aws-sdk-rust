@@ -1,0 +1,1 @@
+initSidebarItems({"mod":[["middleware",""],["provider","AWS credential providers, generic caching provider implementations, and traits to implement custom providers."]],"struct":[["Credentials","AWS SDK Credentials"]]});

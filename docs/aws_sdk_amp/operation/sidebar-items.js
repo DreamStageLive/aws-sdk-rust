@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["CreateWorkspace","Creates a new AMP workspace."],["DeleteWorkspace","Deletes an AMP workspace."],["DescribeWorkspace","Describes an existing AMP workspace."],["ListWorkspaces","Lists all AMP workspaces, including workspaces being created or deleted."],["UpdateWorkspaceAlias","Updates an AMP workspace alias."]]});

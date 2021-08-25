@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Builder","Builder for `DefaultProviderChain`"],["DefaultProviderChain","Default AWS Credential Provider Chain"]]});

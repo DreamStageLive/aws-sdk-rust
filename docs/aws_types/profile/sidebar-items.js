@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["load","Read & parse AWS config files"]],"struct":[["Profile","An individual configuration profile"],["ProfileParseError","An error encountered while parsing a profile"],["ProfileSet","A top-level configuration source containing multiple named profiles"],["Property","Key-Value property pair"]]});

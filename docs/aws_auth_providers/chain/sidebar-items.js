@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["ChainProvider","Credentials provider that checks a series of inner providers"]]});

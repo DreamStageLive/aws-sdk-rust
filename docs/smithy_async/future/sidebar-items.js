@@ -1,0 +1,1 @@
+initSidebarItems({"mod":[["never","Provides the [`Never`] future that never completes."],["timeout","Provides the [`Timeout`] future for adding a timeout to another future."]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["PropertyBag","A type-map of configuration data."]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["ProfileFileError",""]],"struct":[["Builder",""],["ProfileFileCredentialProvider","AWS Profile based credentials provider"]]});

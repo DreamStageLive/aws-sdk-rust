@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Builder",""],["WebIdentityTokenCredentialProvider","Credential provider to load credentials from Web Identity  Tokens"],["WebIdentityTokenRole","Hard-coded WebIdentityToken role"]]});

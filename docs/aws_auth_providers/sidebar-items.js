@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["default_provider","Default AWS provider chain"]],"mod":[["chain","Credentials Provider that evaluates a series of providers"],["default_provider_chain",""],["profile","Profile File Based Providers"],["web_identity_token","Load Credentials from Web Identity Tokens"]]});
