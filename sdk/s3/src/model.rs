@@ -11228,7 +11228,7 @@ pub struct Object {
     /// </ul>
     pub e_tag: std::option::Option<std::string::String>,
     /// <p>Size in bytes of the object</p>
-    pub size: i32,
+    pub size: i64,
     /// <p>The class of storage used to store the object.</p>
     pub storage_class: std::option::Option<crate::model::ObjectStorageClass>,
     /// <p>The owner of the object</p>
@@ -11255,7 +11255,7 @@ pub mod object {
         pub(crate) key: std::option::Option<std::string::String>,
         pub(crate) last_modified: std::option::Option<smithy_types::Instant>,
         pub(crate) e_tag: std::option::Option<std::string::String>,
-        pub(crate) size: std::option::Option<i32>,
+        pub(crate) size: std::option::Option<i64>,
         pub(crate) storage_class: std::option::Option<crate::model::ObjectStorageClass>,
         pub(crate) owner: std::option::Option<crate::model::Owner>,
     }
@@ -11311,11 +11311,11 @@ pub mod object {
             self
         }
         /// <p>Size in bytes of the object</p>
-        pub fn size(mut self, input: i32) -> Self {
+        pub fn size(mut self, input: i64) -> Self {
             self.size = Some(input);
             self
         }
-        pub fn set_size(mut self, input: std::option::Option<i32>) -> Self {
+        pub fn set_size(mut self, input: std::option::Option<i64>) -> Self {
             self.size = input;
             self
         }

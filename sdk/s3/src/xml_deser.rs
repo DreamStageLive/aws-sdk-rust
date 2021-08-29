@@ -3955,7 +3955,7 @@ pub fn deser_structure_object(
                 let var_219 =
                     Some(
                          {
-                            <i32 as smithy_types::primitive::Parse>::parse_smithy_primitive(
+                            <i64 as smithy_types::primitive::Parse>::parse_smithy_primitive(
                                 smithy_xml::decode::try_data(&mut tag)?.as_ref()
                             )
                             .map_err(|_|smithy_xml::decode::XmlError::custom("expected (integer: `com.amazonaws.s3#Size`)"))
