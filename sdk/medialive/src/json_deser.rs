@@ -11782,6 +11782,21 @@ where
         Some(smithy_json::deserialize::Token::StartObject { .. }) => {
             #[allow(unused_mut)]
             let mut builder = crate::model::ImmediateModeScheduleActionStartSettings::builder();
+            loop {
+                match tokens.next().transpose()? {
+                    Some(smithy_json::deserialize::Token::EndObject { .. }) => break,
+                    Some(smithy_json::deserialize::Token::ObjectKey { key, .. }) => {
+                        match key.to_unescaped()?.as_ref() {
+                            _ => smithy_json::deserialize::token::skip_value(tokens)?,
+                        }
+                    }
+                    _ => {
+                        return Err(smithy_json::deserialize::Error::custom(
+                            "expected object key or end object",
+                        ))
+                    }
+                }
+            }
             Ok(Some(builder.build()))
         }
         _ => Err(smithy_json::deserialize::Error::custom(
